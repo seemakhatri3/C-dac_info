@@ -1,5 +1,6 @@
 .navbar{
     background-color: #9272C0;
+   
 }
 .navbar h3{
     color: #fff;
@@ -10,21 +11,31 @@
     width: 90px;
     height: auto;
 }
+.navbar i{
+    color: #fff;
+    margin-left: 1rem;
+}
 footer{
     /* left: 0; */
     bottom: 0;
     width: 100%;
+    
 
     /* min-height: 100vh ; */
      display: flex ; 
-     flex-direction: column;
 
 }
 footer p{
     color: #9272C0;
     font-size: 14px
+    
 }
 
 .accordion-button {
     background-color:#e9d5ff !important;
+}
+ div .card{
+    height: 400px;
+
+    
 }
