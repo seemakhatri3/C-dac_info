@@ -33,7 +33,7 @@
 
     <nav class="navbar navbar-expand-lg  bg-dark text-light">
         <div class="container-fluid text-light">
-          <a class="navbar-brand text-light" href="#"  >Home</a>
+          <a class="navbar-brand text-light" href="#">Home</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon  bg-light"></span>
           </button>
@@ -71,15 +71,15 @@
             <div class="container py-4">
                 <div class="card">
                   
-                   <div class="card-header bg-dark text-light ">
+                   <div class="card-header  text-light " style="background-color: #422F5E;">
                     Address Information
                    </div>
                     
                    <div class="card-body ">
                     <form class="row g-3">
                         
-                        <div class="col-md-6">
-                          <label for="inputAddress" class="form-label"> <strong> Current Address Line-1</strong> </label>
+                        <div class="col-lg-12">
+                          <label for="inputAddress" class="form-label"> <strong> Current Address</strong> </label>
                         
                           <input type="text" class="form-control" id="inputAddress" placeholder="Address Line-1" >
                         </div>
@@ -87,10 +87,7 @@
                             <label for="inputAddress" class="form-label"> <b>Line-2</b></label>
                             <input type="text" class="form-control" id="inputAddress" placeholder="Address Line-2">
                           </div>
-                          <div class="col-md-6">
-                            <label for="inputAddress" class="form-label"><b>Line-3</b></label>
-                            <input type="text" class="form-control" id="inputAddress" placeholder="Address  Line-3">
-                          </div>
+                          
                           <div class="col-md-6">
                             <label for="inputDistrict" class="form-label"><b>District</b></label>
                             <input type="text" class="form-control" id="inputDistrict">
@@ -116,18 +113,15 @@
                           <input type="text" class="form-control" id="inputZip">
                         </div>
                         
-                        <div class="col-md-6">
-                            <label for="inputAddress" class="form-label"><strong>Permanent Atddress Line-1</strong> </label>
+                        <div class="col-lg-12">
+                            <label for="inputAddress" class="form-label"><strong>Permanent Address </strong> </label>
                             <input type="text" class="form-control" id="inputAddress" placeholder=" Address Line-1 "required>
                           </div>
                           <div class="col-md-6">
                             <label for="inputAddress" class="form-label"><b>Line-2</b></label>
                             <input type="text" class="form-control" id="inputAddress" placeholder="Address Line-2">
                           </div>
-                          <div class="col-md-6">
-                            <label for="inputAddress" class="form-label"><b>Line-3</b></label>
-                            <input type="text" class="form-control" id="inputAddress" placeholder="Address Line-3">
-                          </div>
+                         
                           <div class="col-md-6">
                             <label for="inputDistrict" class="form-label"><b>District</b></label>
                             <input type="text" class="form-control" id="inputDistrict">
@@ -152,33 +146,20 @@
                             <input type="text" class="form-control" id="inputZip">
                           </div>
                           <form>
-                            <div class=" col-md-6">
-                                <label for="formFileMultiple" class="form-label" ><b>Upload Content</b></label>
-                                <input class="form-control" type="file" id="formFileMultiple"   multiple>
-
-                               </div>                       <!--     <div class=" col-sm-3">
-
-                              <i class="fa-solid fa-eye-slash"></i>
-                              <button type="button" class="btn btn-outline-dark">File Instruction</button>
-</div> -->
+                           
                               <div class="col-md-6">
                                 <label for="formFileMultiple" class="form-label"><strong>Upload Image</strong></label>
                                 <input class="form-control" type="file" id="formFileMultiple" multiple>
                               </div>
                           </form>
                           <div class="col-12">
-                            <!-- <div class="form-check">
-                              <input class="form-check-input" type="checkbox" id="gridCheck">
-                              <label class="form-check-label" for="gridCheck">
-                                Check me out
-                              </label>
-                            </div> -->
+                         
                           </div>
                         <div class="col-12 py-2 my-2  text-center">
-                          <button type="submit" class="btn btn-dark">Submit</button>
-                          <button type="Clear" class="btn btn-dark">Clear</button>
+                          <button type="submit" class="btn btn-primary">Submit</button>
+                          <button type="Clear" class="btn btn-primary">Clear</button>
 
-                          <button type="close" class="btn btn-dark">Close</button>
+                          <button type="close" class="btn btn-primary">Close</button>
 
                         </div>
                       </form>
