@@ -15,18 +15,12 @@
     color: #fff;
     margin-left: 1rem;
 }
-.nav{
-    background-color: #422F5E;
-}
-.nav .nav-link{
-    color: #fff;
-}
-
 footer{
     /* left: 0; */
     bottom: 0;
     width: 100%;
     background-color: #422F5E;
+    
 
     /* min-height: 100vh ; */
      display: flex ; 
@@ -36,21 +30,29 @@ footer p{
     color: #9272C0;
     font-size: 14px
     
-    
 }
 
 .accordion-button {
     background-color:#e9d5ff !important;
 }
- .container input placeholder{
-    color: #fff;
- }
- .container .card-header{
-    background-color: #422F5E;
-    color: #fff;
-}
-
 .saveBtn{
     background-color: #9272C0 !important;
     color: #fff !important;
 }
+ div .c1{
+     height: 400px; 
+
+    
+}
+.container .card-header{
+    background-color: #422F5E;
+    color: #fff;
+}
+.header {
+    margin-left: 2rem;
+    color: #422F5E;
+    font-weight: 500;
+    font-size: 30px;
+
+}
+

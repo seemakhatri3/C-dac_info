@@ -45,31 +45,16 @@ footer p{
  .container input placeholder{
     color: #fff;
  }
- .container .card-header{
-    background-color: #422F5E;
-    color: #fff;
-}
-
+ 
 .saveBtn{
     background-color: #9272C0 !important;
     color: #fff !important;
 }
-.firstcard{
-    width: 100%;
-}
-.firstcard .card-header{
-    background-color: #422F5E;
-    color:white ;
 
-}
-.side-cards .card-header{
-    background-color: #422F5E;
-    color:white ;
-}
-.side-cards .card{
-    max-width: 18rem;
-
-}
 .card-body span{
     color: red;
+}
+.card .card-header{
+    background-color: #422F5E;
+    color:#fff ;
 }
